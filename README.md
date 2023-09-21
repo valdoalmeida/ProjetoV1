@@ -1,2 +1,6 @@
 # ProjetoV1
-Projeto site da Empresa Phoenix V1 - programado em HTML - CSS - JAVASCRIPT e BOOTSTRAP
+Projeto site da Empresa Phoenix V1 - o site oficial fica em www.grupophoenix.com.br e foi feito todo em WordPress.
+
+Objetivo : 
+Replicar o site original porem usando na V1 as tecnologias HTML - CSS - JAVASCRIPT e BOOTSTRAP
+
