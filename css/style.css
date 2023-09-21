@@ -432,8 +432,9 @@ ul.menu-nav {
 
 .tec-img {
   width: 100%;
-  height: 250px;
+  height: 220px;
   border-radius: 5px 5px 0px 0px;
+  
 }
 
 .card-area {
@@ -528,6 +529,46 @@ ul.menu-nav {
 .text-accordion-main {
   font-family: var(--font-secondary);
   font-size: 0.8rem;
+}
+
+/*INICIO PARALAX*/
+
+.paralax-main {
+  height: 500px;
+}
+
+.paralax-container {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+  
+  
+}
+
+.paralax-img-bg {
+  height: 100%;
+  background-image: url(../img/img-paralax.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.paralax-text-main {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 1.75rem;   
+  padding-top: 50px;
+  padding-right: 30px;
+}
+
+.paralax-text-secondary {
+  color: #ffffff;
+  width: 400px;  
+  font-family: var(--font-secondary);
 }
 
 .teste {
