@@ -1,0 +1,58 @@
+let num1 = document.getElementById("num-delivery1");
+let num2 = document.getElementById("num-delivery2");
+let num3 = document.getElementById("num-delivery3");
+let num4 = document.getElementById("num-delivery4");
+
+// INICIO DOS CONTADORES
+var contador1 = 0; // Defina o valor inicial da contagem progressiva
+var contador2 = 0; // Defina o valor inicial da contagem progressiva
+var contador3 = 0; // Defina o valor inicial da contagem progressiva
+var contador4 = 0; // Defina o valor inicial da contagem progressiva
+
+// FUNÇÃO PARA INCREMENTAR O CONTADOR
+function counterNum1() {
+  setInterval(() => {
+    if (contador1 < 150) {
+      contador1++;
+      num1.textContent = contador1;
+    }
+  }, 70);
+}
+
+function counterNum2() {
+  setInterval(() => {
+    if (contador2 < 88) {
+      contador2++;
+      num2.textContent = contador2;
+    }
+  }, 120);
+}
+
+function counterNum3() {
+  setInterval(() => {
+    if (contador3 < 494) {
+      contador3++;
+      num3.textContent = contador3;
+    }
+  }, 20);
+}
+
+function counterNum4() {
+  setInterval(() => {
+    if (contador4 < 55) {
+      contador4++;
+      num4.textContent = contador4;
+    }
+  }, 190);
+}
+
+// FUNÇÃO PARA INICIAR A CONTAGEM AUTOMATICAMENTE
+export function loadCounter() {
+  counterNum1();
+  counterNum2();
+  counterNum3();
+  counterNum4();
+}
+
+// CHAMA A FUNÇÃO LOADCOUNTER ASSIM QUE CARREGAR A PAGINA
+window.onload = loadCounter;
