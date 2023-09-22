@@ -5,14 +5,11 @@
   box-sizing: border-box;
   list-style: none;
 }
-
 /*VARIBLE FONTS*/
-
 :root {
   --font-main: "fontmain", Lato;
   --font-secondary: "fontsecondary", Poppins, arial;
 }
-
 /*CUSTOMIZAÇÃO h2*/
 .text-main-who,
 .tec-work-text-main,
@@ -28,26 +25,21 @@
   padding: 40px 0px 40px 0px;
   color: #9e1114;
 }
-
 /*INICIO DAS CONFIGURAÇÕES DO MENU*/
-
 .logo {
   padding: 10px 0px 10px 100px;
 }
-
 .header {
   background-color: #9e1114;
   width: 100%;
   height: 40px;
 }
-
 ul.menu-nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 100%;
 }
-
 .menu-link {
   text-decoration: none;
   color: #f0f8ff;
@@ -56,7 +48,6 @@ ul.menu-nav {
   font-family: var(--font-secondary);
   text-transform: uppercase;
 }
-
 /*INICIO DAS CONFIGURAÇÕES DO MAIN*/
 .main {
   background-image: url(../img/img-main.webp);
@@ -65,7 +56,6 @@ ul.menu-nav {
   background-size: cover;
   height: 82dvh;
 }
-
 .main-text {
   width: 100%;
   height: 100%;
@@ -75,14 +65,12 @@ ul.menu-nav {
   align-items: center;
   flex-direction: column;
 }
-
 .container-text {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-
 .text-welcome {
   color: #9e1114;
   text-transform: uppercase;
@@ -91,7 +79,6 @@ ul.menu-nav {
   font-size: 3rem;
   font-family: var(--font-secondary);
 }
-
 .text-secondary {
   text-transform: uppercase;
   font-weight: 700;
@@ -100,53 +87,42 @@ ul.menu-nav {
   font-size: 2rem;
   font-family: var(--font-secondary);
 }
-
 .text-span {
   color: #ffffff;
   text-shadow: 1px 1px 5px #000000;
 }
-
 .text-span1 {
   color: #9e1114;
   text-shadow: 1px 1px 2px #ffffff;
   font-size: 2.5rem;
 }
-
 /*SOCCIAL-NETWORK*/
-
 .social-network {
   height: 50px;
   text-align: center;
 }
-
 .icon-social {
   padding: 5px;
   width: 40px;
 }
-
 /* INICIO DA SEÇÃO WHO*/
-
 .who-main {
   display: flex;
   align-items: center;
 }
-
 .text-who {
   width: 65%;
   padding: 25px 0px 25px 10px;
 }
-
 .text-main-who-p {
   font-family: var(--font-secondary);
   line-height: 30px;
   font-size: 0.875rem;
   color: #646464;
 }
-
 .text-main-who-p-link {
   text-align: end;
 }
-
 .text-main-who-p-link a {
   font-family: var(--font-secondary);
   line-height: 30px;
@@ -156,7 +132,6 @@ ul.menu-nav {
   text-decoration: none;
   padding: 20px;
 }
-
 .picture-who {
   width: 50%;
   padding: 25px 10px 25px 0px;
@@ -165,7 +140,6 @@ ul.menu-nav {
   align-items: center;
   gap: 20px;
 }
-
 .img-aside1 {
   width: 410px;
   height: 275px;
@@ -175,7 +149,6 @@ ul.menu-nav {
   border-radius: 5px;
   box-shadow: 1px 1px 5px #000000;
 }
-
 .img-aside2 {
   width: 410px;
   height: 275px;
@@ -185,9 +158,7 @@ ul.menu-nav {
   border-radius: 5px;
   box-shadow: 1px 1px 5px #000000;
 }
-
 /*INICIO MODAL*/
-
 .modal-main {
   width: 100vw;
   height: 100vh;
@@ -198,19 +169,16 @@ ul.menu-nav {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 .img-modal {
   width: 100%;
   height: 30%;
   border: 2px solid #9e1114;
   border-radius: 5px;
 }
-
 .img-modal-main {
   width: 100%;
   height: 100%;
 }
-
 .modal-secondary {
   width: 55%;
   height: 75%;
@@ -223,7 +191,6 @@ ul.menu-nav {
   position: relative;
   border-radius: 10px;
 }
-
 .text-modal {
   color: #9e1114;
   font-size: 1.1rem;
@@ -232,7 +199,6 @@ ul.menu-nav {
   font-weight: 700;
   text-transform: uppercase;
 }
-
 .text-p-modal {
   color: #646464;
   font-family: var(--font-secondary);
@@ -240,13 +206,11 @@ ul.menu-nav {
   text-indent: 20px;
   padding-bottom: 5px;
 }
-
 .modal-main.open-modal {
   display: flex;
   z-index: 999;
   animation: aberturaModal 2s ease;
 }
-
 @keyframes aberturaModal {
   from {
     opacity: 0;
@@ -255,7 +219,6 @@ ul.menu-nav {
     opacity: 1;
   }
 }
-
 .close-modal {
   width: 50px;
   height: 50px;
@@ -273,31 +236,25 @@ ul.menu-nav {
   border: 3px solid white;
   cursor: pointer;
 }
-
 .div-modal {
   padding-left: 30px;
   margin-top: 20px;
   border-left: 3px solid #9e1114;
 }
-
 /*SEÇÃO TEC-WORK*/
-
 .tec-work-main {
   height: auto;
   background-color: #f7f7f7;
 }
-
 .tec-work-section1 {
   text-align: center;
 }
-
 .tec-work-text-secondary {
   font-family: var(--font-secondary);
   font-size: 0.875rem;
   padding-bottom: 40px;
   color: #646464;
 }
-
 .tec-work-section2,
 .tec-work-section3,
 .tec-work-section4 {
@@ -312,15 +269,12 @@ ul.menu-nav {
 .tec-work-section4 {
   animation: tec-work1 10s ease;
 }
-
 .tec-work-section3 {
   animation: tec-work2 10s ease;
 }
-
 .tec-work-section4 {
   padding-bottom: 80px;
 }
-
 .tec-work-img1,
 .tec-work-img2,
 .tec-work-img3,
@@ -339,7 +293,6 @@ ul.menu-nav {
   justify-content: center;
   align-items: center;
 }
-
 .tec-work-img1-1,
 .tec-work-img1-2,
 .tec-work-img1-3,
@@ -358,7 +311,6 @@ ul.menu-nav {
   border-radius: 5px;
   opacity: 0.5;
 }
-
 .tec-work-img1-1:hover,
 .tec-work-img1-2:hover,
 .tec-work-img1-3:hover,
@@ -377,9 +329,7 @@ ul.menu-nav {
   opacity: 1;
   transition: 1s linear;
 }
-
 /*ANIMAÇÃO TEC-WORK*/
-
 @keyframes tec-work1 {
   from {
     left: -1500px;
@@ -396,22 +346,18 @@ ul.menu-nav {
     right: 0px;
   }
 }
-
 /*DIVISOR*/
-
 .divisor-main {
   height: 350px;
   background-image: url(../img/divisor.webp);
   background-position: center;
   background-size: contain;
 }
-
 /*INICIO TEC AREA*/
 .tec-area-main {
   background-color: #f7f7f7;
   padding-bottom: 20px;
 }
-
 .tec-area-grid {
   display: grid;
   grid-template-columns: 45% 45%;
@@ -420,7 +366,6 @@ ul.menu-nav {
   justify-content: center;
   padding-bottom: 40px;
 }
-
 .tec-area-2,
 .tec-area-3,
 .tec-area-4,
@@ -429,18 +374,15 @@ ul.menu-nav {
   border-radius: 5px;
   background-color: #ffffff;
 }
-
 .tec-img {
   width: 100%;
   height: 240px;
   border-radius: 5px 5px 0px 0px;
 }
-
 .card-area {
   background-color: #ffffff;
   border-radius: 5px;
 }
-
 .tec-text-header {
   font-family: var(--font-secondary);
   font-weight: 700;
@@ -449,7 +391,6 @@ ul.menu-nav {
   padding: 10px;
   text-transform: capitalize;
 }
-
 .tec-text-p {
   font-family: var(--font-secondary);
   font-size: 0.8rem;
@@ -457,9 +398,7 @@ ul.menu-nav {
   padding: 0px 20px 0px 20px;
   line-height: 25px;
 }
-
 /*INICIO DA DELIVERY OURS*/
-
 .text-delivery-secondary {
   text-align: center;
   font-family: var(--font-secondary);
@@ -467,13 +406,11 @@ ul.menu-nav {
   color: #646464;
   padding-bottom: 40px;
 }
-
 .card-delivery {
   display: flex;
   justify-content: space-between;
   padding-bottom: 40px;
 }
-
 .card-delivery1,
 .card-delivery2,
 .card-delivery3,
@@ -488,13 +425,11 @@ ul.menu-nav {
   align-items: center;
   border-radius: 5px;
 }
-
 .img-delivery {
   width: 30%;
   height: 30%;
   padding-top: 15px;
 }
-
 .text-int {
   font-family: var(--font-secondary);
   font-weight: 600;
@@ -503,7 +438,6 @@ ul.menu-nav {
   color: #9e1114;
   padding: 10px 0px 10px 0px;
 }
-
 .card-delivery1 p,
 .card-delivery2 p,
 .card-delivery3 p,
@@ -514,28 +448,21 @@ ul.menu-nav {
   text-align: center;
   color: #9e1114;
 }
-
 /*ACCORDION*/
-
 .accordion-main {
   padding-bottom: 40px;
 }
-
 .text-accordion {
   font-family: var(--font-secondary);
 }
-
 .text-accordion-main {
   font-family: var(--font-secondary);
   font-size: 0.8rem;
 }
-
 /*INICIO PARALAX*/
-
 .paralax-main {
   height: auto;
 }
-
 .paralax-container {
   display: flex;
   flex-direction: column;
@@ -549,7 +476,6 @@ ul.menu-nav {
   justify-content: center;
   align-items: center;
 }
-
 .paralax-img-bg {
   height: 100%;
   background-image: url(../img/img-paralax.webp);
@@ -558,7 +484,6 @@ ul.menu-nav {
   background-size: cover;
   background-attachment: fixed;
 }
-
 .paralax-text-main {
   color: #ffffff;
   text-transform: uppercase;
@@ -568,33 +493,27 @@ ul.menu-nav {
   padding-top: 50px;
   padding-right: 30px;
 }
-
 .paralax-text-secondary {
   color: #ffffff;
   width: 500px;
   font-family: var(--font-secondary);
 }
-
 /*INICIO DO FORMULARIO*/
-
 .form-main {
   display: flex;
   flex-direction: column;
   width: 45%;
   gap: 15px;
 }
-
 input,
 textarea {
   padding: 8px;
   border-radius: 5px;
   border: none;
 }
-
 .btn-submit-main {
   text-align: center;
 }
-
 .btn-submit {
   width: 200px;
   height: 50px;
@@ -605,25 +524,20 @@ textarea {
   font-weight: 600;
   border-radius: 5px;
 }
-
 input::placeholder,
 textarea::placeholder {
   font-family: var(--font-secondary);
   font-size: 0.8rem;
 }
-
 .btn-submit:hover {
   background-color: #5c0e0f;
 }
-
 /*INICO DA TEC-CLOUD*/
-
 .tec-cloud-text-secondary {
   font-family: var(--font-secondary);
   font-size: 0.85rem;
   text-align: center;
 }
-
 .teste {
   height: 500px;
   background-color: aquamarine;
