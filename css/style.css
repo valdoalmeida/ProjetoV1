@@ -541,7 +541,7 @@ ul.menu-nav {
   align-items: end;
 }
 .container-text-form {
-  width: 50%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -569,7 +569,7 @@ ul.menu-nav {
 
 .paralax-text-secondary {
   color: #ffffff;
-  width: 400px;
+  width: 500px;
   font-family: var(--font-secondary);
 }
 
@@ -582,7 +582,8 @@ ul.menu-nav {
   gap: 15px;
 }
 
-input {
+input,
+textarea {
   padding: 8px;
   border-radius: 5px;
   border: none;
@@ -601,6 +602,12 @@ input {
   color: #ffffff;
   font-weight: 600;
   border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: var(--font-secondary);
+  font-size: 0.8rem;
 }
 
 .btn-submit:hover {
