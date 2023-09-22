@@ -18,7 +18,8 @@
 .tec-work-text-main,
 .tec-area-text,
 .text-delivery-main,
-.text-doubt-main {
+.text-doubt-main,
+.tec-cloud-text-main {
   font-family: var(--font-secondary);
   font-size: 1.563rem;
   text-transform: uppercase;
@@ -532,13 +533,14 @@ ul.menu-nav {
 /*INICIO PARALAX*/
 
 .paralax-main {
-  height: 650px;
+  height: auto;
 }
 
 .paralax-container {
   display: flex;
   flex-direction: column;
   align-items: end;
+  padding-bottom: 40px;
 }
 .container-text-form {
   width: 45%;
@@ -612,6 +614,14 @@ textarea::placeholder {
 
 .btn-submit:hover {
   background-color: #5c0e0f;
+}
+
+/*INICO DA TEC-CLOUD*/
+
+.tec-cloud-text-secondary {
+  font-family: var(--font-secondary);
+  font-size: 0.85rem;
+  text-align: center;
 }
 
 .teste {
