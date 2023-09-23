@@ -71,6 +71,7 @@ ul.menu-nav {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 .text-welcome {
   color: #9e1114;
@@ -79,6 +80,7 @@ ul.menu-nav {
   text-shadow: 1px 1px 2px #ffffff;
   font-size: 3rem;
   font-family: var(--font-secondary);
+  
 }
 .text-secondary {
   text-transform: uppercase;
@@ -439,6 +441,7 @@ ul.menu-nav {
   color: #9e1114;
   padding: 10px 0px 10px 0px;
 }
+
 .card-delivery1 p,
 .card-delivery2 p,
 .card-delivery3 p,

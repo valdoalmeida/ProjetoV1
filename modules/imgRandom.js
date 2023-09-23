@@ -12,7 +12,7 @@ export function changeBgImagen() {
   let indexImagen = Math.floor(Math.random() * imagens.length);
 
   bgImage.style.backgroundImage = imagens[indexImagen];
-  bgImage.style.transition = "5s ease-in";
+  bgImage.style.transition = "5s ease-in-out";
 }
 
-window.onload = setInterval(changeBgImagen, 8000);
+window.onload = setInterval(changeBgImagen, 6000);
