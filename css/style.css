@@ -50,12 +50,38 @@ ul.menu-nav {
 }
 /*INICIO DAS CONFIGURAÇÕES DO MAIN*/
 .main {
+  width: 100%;
+  height: 75vh;
   background-image: url(../img/img-main.webp);
+  overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 82dvh;
+  animation: changeImg 25s infinite alternate-reverse;
 }
+
+@keyframes changeImg {
+  0% {
+    background-image: url(../img/img-main.webp);
+  }
+
+  25% {
+    background-image: url(../img/img-main2.webp);
+  }
+
+  50% {
+    background-image: url(../img/img-main3.webp);
+  }
+
+  75% {
+    background-image: url(../img/img-main4.webp);
+  }
+
+  100% {
+    background-image: url(../img/img-main5.webp);
+  }
+}
+
 .main-text {
   width: 100%;
   height: 100%;
