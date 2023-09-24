@@ -43,8 +43,8 @@ ul.menu-nav {
 .menu-link {
   text-decoration: none;
   color: #f0f8ff;
-  font-weight: 600;
-  font-size: 0.8rem;
+  
+  font-size: 0.688rem;
   font-family: var(--font-secondary);
   text-transform: uppercase;
 }
@@ -136,12 +136,13 @@ ul.menu-nav {
 }
 .text-main-who-p {
   font-family: var(--font-secondary);
-  line-height: 30px;
-  font-size: 0.875rem;
+  line-height: 30px;  
   color: #646464;
+  font-size: 0.875rem;
 }
 .text-main-who-p-link {
   text-align: end;
+  
 }
 .text-main-who-p-link a {
   font-family: var(--font-secondary);
@@ -222,7 +223,7 @@ ul.menu-nav {
 .text-p-modal {
   color: #646464;
   font-family: var(--font-secondary);
-  font-size: 0.8rem;
+  font-size: 0.875rem;
   text-indent: 20px;
   padding-bottom: 5px;
 }
@@ -270,10 +271,10 @@ ul.menu-nav {
   text-align: center;
 }
 .tec-work-text-secondary {
-  font-family: var(--font-secondary);
-  font-size: 0.875rem;
+  font-family: var(--font-secondary);  
   padding-bottom: 40px;
   color: #646464;
+  font-size: 0.875rem;
 }
 .tec-work-section2,
 .tec-work-section3,
@@ -412,19 +413,19 @@ ul.menu-nav {
   text-transform: capitalize;
 }
 .tec-text-p {
-  font-family: var(--font-secondary);
-  font-size: 0.8rem;
+  font-family: var(--font-secondary);  
   color: #646464;
   padding: 0px 20px 0px 20px;
   line-height: 25px;
+  font-size: 0.875rem;
 }
 /*INICIO DA DELIVERY OURS*/
 .text-delivery-secondary {
   text-align: center;
-  font-family: var(--font-secondary);
-  font-size: 0.8rem;
+  font-family: var(--font-secondary);  
   color: #646464;
   padding-bottom: 40px;
+  font-size: 0.875rem;
 }
 .card-delivery {
   display: flex;
@@ -478,7 +479,8 @@ ul.menu-nav {
 }
 .text-accordion-main {
   font-family: var(--font-secondary);
-  font-size: 0.8rem;
+  font-size: 0.875rem;
+  
 }
 /*INICIO PARALAX*/
 .paralax-main {
@@ -518,6 +520,7 @@ ul.menu-nav {
   color: #ffffff;
   width: 500px;
   font-family: var(--font-secondary);
+  font-size: 0.875rem;
 }
 /*INICIO DO FORMULARIO*/
 .form-main {
