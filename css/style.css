@@ -143,6 +143,7 @@ ul.menu-nav {
 .social-network {
   height: 50px;
   text-align: center;
+  
 }
 .icon-social {
   padding: 5px;
@@ -491,12 +492,12 @@ ul.menu-nav {
 .card-delivery4 {
   min-width: 280px;
   max-width: 280px;
-  height: 250px;
+  height: 180px;
   border: 1px solid #000000;
   background-color: #f7f7f7;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-radius: 5px;
 }
@@ -508,10 +509,10 @@ ul.menu-nav {
 .text-int {
   font-family: var(--font-secondary);
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
   text-align: center;
   color: #9e1114;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 0px 0px;
 }
 
 .card-delivery1 p,
@@ -520,7 +521,7 @@ ul.menu-nav {
 .card-delivery4 p {
   font-family: var(--font-secondary);
   font-weight: 600;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   color: #9e1114;
 }

@@ -2,6 +2,7 @@ let num1 = document.getElementById("num-delivery1");
 let num2 = document.getElementById("num-delivery2");
 let num3 = document.getElementById("num-delivery3");
 let num4 = document.getElementById("num-delivery4");
+let deliveryOur = document.getElementById('delivery-ours');
 
 // INICIO DOS CONTADORES
 var contador1 = 0; // Defina o valor inicial da contagem progressiva
@@ -46,13 +47,19 @@ function counterNum4() {
   }, 190);
 }
 
+
+
 // FUNÇÃO PARA INICIAR A CONTAGEM AUTOMATICAMENTE
 export function loadCounter() {
-  counterNum1();
-  counterNum2();
-  counterNum3();
-  counterNum4();
+  
+  if (deliveryOur.style.visibility !== "hidden") {
+    counterNum1();
+    counterNum2();
+    counterNum3();
+    counterNum4();
+  }
 }
 
 // CHAMA A FUNÇÃO LOADCOUNTER ASSIM QUE CARREGAR A PAGINA
 window.onload = loadCounter;
+
