@@ -29,10 +29,13 @@
 .logo {
   padding: 10px 0px 10px 100px;
 }
+.header-main {
+  height: 18dvh;
+}
 .header {
   background-color: #9e1114;
   width: 100%;
-  height: 40px;
+  height: 5dvh;
 }
 ul.menu-nav {
   display: flex;
@@ -43,7 +46,6 @@ ul.menu-nav {
 .menu-link {
   text-decoration: none;
   color: #f0f8ff;
-
   font-size: 0.688rem;
   font-family: var(--font-secondary);
   text-transform: uppercase;
@@ -72,7 +74,7 @@ ul.menu-nav {
 /*INICIO DAS CONFIGURAÇÕES DO MAIN*/
 .main {
   width: 100%;
-  height: 83dvh;
+  height: 82dvh;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;
@@ -150,6 +152,7 @@ ul.menu-nav {
 .who-main {
   display: flex;
   align-items: center;
+  visibility: hidden;
 }
 .text-who {
   width: 65%;
@@ -233,7 +236,6 @@ ul.menu-nav {
   align-items: center;
   position: relative;
   border-radius: 10px;
-  
 }
 .text-modal {
   color: #9e1114;
@@ -289,6 +291,7 @@ ul.menu-nav {
 .tec-work-main {
   height: auto;
   background-color: #f7f7f7;
+  visibility: hidden;
 }
 .tec-work-section1 {
   text-align: center;
@@ -311,10 +314,12 @@ ul.menu-nav {
 }
 .tec-work-section2,
 .tec-work-section4 {
-  animation: tec-work1 10s ease;
+  transform: translate3d(-73px, 0, 0);
+  animation: tec-work1 10s infinite alternate;
 }
 .tec-work-section3 {
-  animation: tec-work2 10s ease;
+  transform: translate3d(73px, 0, 0);
+  animation: tec-work2 10s infinite alternate;
 }
 .tec-work-section4 {
   padding-bottom: 80px;
@@ -374,19 +379,25 @@ ul.menu-nav {
 }
 /*ANIMAÇÃO TEC-WORK*/
 @keyframes tec-work1 {
-  from {
-    left: -1500px;
+  0% {
+    transform: translate3d(-73px, 0, 0);
   }
-  to {
-    left: 0px;
+  50% {
+    transform: translate3d(73px, 0, 0);
+  }
+  100% {
+    transform: translate3d(-73px, 0, 0);
   }
 }
 @keyframes tec-work2 {
-  from {
-    right: -1500px;
+  0% {
+    transform: translate3d(73px, 0, 0);
   }
-  to {
-    right: 0px;
+  50% {
+    transform: translate3d(-73px, 0, 0);
+  }
+  100% {
+    transform: translate3d(73px, 0, 0);
   }
 }
 /*DIVISOR*/
@@ -400,6 +411,7 @@ ul.menu-nav {
 .tec-area-main {
   background-color: #f7f7f7;
   padding-bottom: 20px;
+  visibility: hidden;
 }
 .tec-area-grid {
   display: grid;
@@ -413,7 +425,6 @@ ul.menu-nav {
 .tec-area-3,
 .tec-area-4,
 .tec-area-5 {
-  
   border-radius: 5px;
   background-color: #ffffff;
   display: flex;
@@ -424,8 +435,8 @@ ul.menu-nav {
 .tec-area-img {
   width: 200%;
 }
-.tec-area-3, .tec-area-5{
-
+.tec-area-3,
+.tec-area-5 {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 30px;
@@ -457,6 +468,11 @@ ul.menu-nav {
   font-size: 0.875rem;
 }
 /*INICIO DA DELIVERY OURS*/
+
+.delivery-ours{
+
+  visibility: hidden;
+}
 .text-delivery-secondary {
   text-align: center;
   font-family: var(--font-secondary);

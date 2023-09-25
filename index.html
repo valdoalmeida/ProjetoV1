@@ -6,6 +6,8 @@
   <title>Grupo Phoenix - Telecomunicações</title>
   <!--CSS-->
    <link rel="stylesheet" href="./css/style.css">
+   <!--CDN-SCROLLREVEAL-->
+   <script src="https://unpkg.com/scrollreveal"></script>
   <!--BOOTSTRAP 5-->
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
   <!--GOOGLE FONTS-->
@@ -17,35 +19,38 @@
 </head>
 <body>
   <!--INICIO DO HEADER-->
-  <div class="logo container">
-    <img src="./img/Logo.webp" alt="imagem principal" />
-  </div>
   <!--WHATTSAPP-->
   <div class="whattsapp" id="whatsapp">
     <a href="https://wa.me/5521986790469?text=Ainda+tenho+dúvidas+pode+me+ajudar%21" target="_blank"><img class="whattsapp-img" src="./img/whatsapp.svg" alt=""></a>
   </div>
-
-  <div class="header">
-    <ul class="menu-nav container">
-      <li><a class="menu-link" href="#social-network">Quem somos</a></li>
-      <li><a class="menu-link" href="#">Serviços</a></li>
-      <li><a class="menu-link" href="#">Produtos</a></li>
-      <li><a class="menu-link" href="#">Seja um parceiro</a></li>
-      <li><a class="menu-link" href="#">Trabalhe conosco</a></li>
-    </ul>
-  </div>
-  <div class="main" id="main">
-    <div class="main-text">
-      <div class="container-text container">
-        <h1 class="text-welcome">bem vindo ao grupo phoenix</h1>
-        <h2 class="text-secondary">
-          <span class="text-span">há mais de <span class="text-span1">30 anos</span> de
-            transformação, <span class="text-span1">credibilidade</span> e
-            experiência.</span>
-        </h2>
+  
+  <div class="header-main"><!--INICIO DA HEADER-MAIN-->
+    <div class="logo container">
+      <img src="./img/Logo.webp" alt="imagem principal" />
+    </div>
+    <header class="header">
+      <ul class="menu-nav container">
+        <li><a class="menu-link" href="#social-network">Quem somos</a></li>
+        <li><a class="menu-link" href="#">Serviços</a></li>
+        <li><a class="menu-link" href="#">Produtos</a></li>
+        <li><a class="menu-link" href="#">Seja um parceiro</a></li>
+        <li><a class="menu-link" href="#">Trabalhe conosco</a></li>
+      </ul>
+    </header>
+  </div><!--FIM DA HEADER-MAIN-->  
+    <div class="main" id="main">
+      <div class="main-text">
+        <div class="container-text container">
+          <h1 class="text-welcome">bem vindo ao grupo phoenix</h1>
+          <h2 class="text-secondary">
+            <span class="text-span">há mais de <span class="text-span1">30 anos</span> de
+              transformação, <span class="text-span1">credibilidade</span> e
+              experiência.</span>
+          </h2>
+        </div>
       </div>
     </div>
-  </div>
+  
   <!--FIM DO HEADER-->
   <!--INICIO SOCIAL-NETWORK-->
   <div class="social-network container" id="social-network">
@@ -482,6 +487,7 @@
 
   <!--JAVASCRIPT--> 
   <script type="module" src="./modules/script.js"></script>
+  <script src="./modules/scrollreveal.js"></script>
   
   <!--JAVASCRIPT - BOOTSTRAP 5-->
   <script src="./modules/bootstrap.min.js"></script>
