@@ -314,11 +314,11 @@ ul.menu-nav {
 }
 .tec-work-section2,
 .tec-work-section4 {
-  transform: translate3d(-73px, 0, 0);
+  transform: translate3d(-63px, 0, 0);
   animation: tec-work1 10s infinite alternate;
 }
 .tec-work-section3 {
-  transform: translate3d(73px, 0, 0);
+  transform: translate3d(63px, 0, 0);
   animation: tec-work2 10s infinite alternate;
 }
 .tec-work-section4 {
@@ -380,24 +380,24 @@ ul.menu-nav {
 /*ANIMAÇÃO TEC-WORK*/
 @keyframes tec-work1 {
   0% {
-    transform: translate3d(-73px, 0, 0);
+    transform: translate3d(-63px, 0, 0);
   }
   50% {
-    transform: translate3d(73px, 0, 0);
+    transform: translate3d(63px, 0, 0);
   }
   100% {
-    transform: translate3d(-73px, 0, 0);
+    transform: translate3d(-63px, 0, 0);
   }
 }
 @keyframes tec-work2 {
   0% {
-    transform: translate3d(73px, 0, 0);
+    transform: translate3d(63px, 0, 0);
   }
   50% {
-    transform: translate3d(-73px, 0, 0);
+    transform: translate3d(-63px, 0, 0);
   }
   100% {
-    transform: translate3d(73px, 0, 0);
+    transform: translate3d(63px, 0, 0);
   }
 }
 /*DIVISOR*/
@@ -409,17 +409,15 @@ ul.menu-nav {
 }
 /*INICIO TEC AREA*/
 .tec-area-main {
-  background-color: #f7f7f7;
-  padding-bottom: 20px;
+  background-color: #f7f7f7;  
   visibility: hidden;
 }
 .tec-area-grid {
-  display: grid;
-  grid-template-columns: 100%;
-  row-gap: 50px;
-  column-gap: 30px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-bottom: 40px;
+  align-items: center;
+  padding-bottom: 40px;  
 }
 .tec-area-2,
 .tec-area-3,
@@ -428,12 +426,14 @@ ul.menu-nav {
   border-radius: 5px;
   background-color: #ffffff;
   display: flex;
-  justify-content: center;
   align-items: center;
   padding-left: 30px;
+  width: 90%;
+  margin-bottom: 20px;
 }
 .tec-area-img {
   width: 200%;
+  box-shadow: 1px 1px 3px black;
 }
 .tec-area-3,
 .tec-area-5 {
@@ -469,8 +469,7 @@ ul.menu-nav {
 }
 /*INICIO DA DELIVERY OURS*/
 
-.delivery-ours{
-
+.delivery-ours {
   visibility: hidden;
 }
 .text-delivery-secondary {
@@ -483,14 +482,16 @@ ul.menu-nav {
 .card-delivery {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 40px;
+  column-gap: 10px;
+  padding-bottom: 20px;
 }
 .card-delivery1,
 .card-delivery2,
 .card-delivery3,
 .card-delivery4 {
-  width: 260px;
-  height: 280px;
+  min-width: 280px;
+  max-width: 280px;  
+  height: 250px;
   border: 1px solid #000000;
   background-color: #f7f7f7;
   display: flex;
@@ -542,10 +543,10 @@ ul.menu-nav {
   display: flex;
   flex-direction: column;
   align-items: end;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .container-text-form {
-  width: 45%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -565,12 +566,11 @@ ul.menu-nav {
   font-family: var(--font-secondary);
   font-weight: 600;
   font-size: 1.75rem;
-  padding-top: 50px;
-  padding-right: 30px;
+  padding-top: 20px;  
 }
 .paralax-text-secondary {
   color: #ffffff;
-  width: 500px;
+  width: 100%;
   font-family: var(--font-secondary);
   font-size: 0.875rem;
 }
@@ -578,8 +578,8 @@ ul.menu-nav {
 .form-main {
   display: flex;
   flex-direction: column;
-  width: 45%;
-  gap: 15px;
+  width: 40%;
+  gap: 10px;
 }
 input,
 textarea {
@@ -591,7 +591,7 @@ textarea {
   text-align: center;
 }
 .btn-submit {
-  width: 200px;
+  width: 40%;
   height: 50px;
   font-family: var(--font-secondary);
   font-size: 0.85rem;
