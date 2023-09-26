@@ -16,7 +16,8 @@
 .tec-area-text,
 .text-delivery-main,
 .text-doubt-main,
-.tec-cloud-text-main {
+.tec-cloud-text-main,
+.know-text-uscall {
   font-family: var(--font-secondary);
   font-size: 1.563rem;
   text-transform: uppercase;
@@ -143,7 +144,6 @@ ul.menu-nav {
 .social-network {
   height: 50px;
   text-align: center;
-  
 }
 .icon-social {
   padding: 5px;
@@ -669,6 +669,64 @@ textarea::placeholder {
 .icon-img-cloud {
   width: 40px;
   padding-bottom: 10px;
+}
+
+/*SECTION USCALL*/
+
+.container-prices {
+  display: flex;
+  column-gap: 15px;
+  margin-bottom: 20px;
+  visibility: hidden;
+}
+
+.table-of-price {
+  width: 33%;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.text-of-price {
+  background-color: #54595f;
+  height: 150px;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.text-subscriber {
+  font-family: var(--font-secondary);
+  font-size: 1.4rem;
+  padding-top: 10px;
+}
+
+.radius-price {
+  position: absolute;
+  background-color: #eaeaea;
+  width: 80%;
+  height: 150px;
+  border-radius: 80%;
+  top: 80px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.type-of-price {
+  margin-top: 120px;
+}
+.price-text-radius {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 2.1rem;
+}
+.price-text-p {
+  font-family: var(--font-secondary);
+  font-size: 0.875rem;
+  padding-left: 25px;
 }
 .teste {
   height: 500px;
