@@ -711,8 +711,9 @@ textarea::placeholder {
   position: absolute;
   background-color: #eaeaea;
   width: 80%;
-  height: 150px;
+  height: 140px;
   border-radius: 80%;
+  border: 2px solid gray;
   top: 80px;
   left: 40px;
   display: flex;
@@ -732,6 +733,10 @@ textarea::placeholder {
   font-family: var(--font-secondary);
   font-size: 0.875rem;
   padding-left: 25px;
+}
+.icon-cloud-price {
+  width: 30px;
+  padding-right: 10px;
 }
 .teste {
   height: 500px;
