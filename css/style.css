@@ -695,7 +695,7 @@ textarea::placeholder {
 
 .text-of-price {
   background-color: #54595f;
-  height: 150px;
+  height: 110px;
   color: #ffffff;
   text-transform: capitalize;
   text-align: center;
@@ -737,6 +737,28 @@ textarea::placeholder {
 .icon-cloud-price {
   width: 30px;
   padding-right: 10px;
+}
+.price-target-main {
+  position: relative;
+  height: 30px;
+}
+.price-target {
+  width: 50%;
+  height: 30px;
+  right: -5px;
+  background-color: #9e1114;
+  border-radius: 5px;
+  position: absolute;
+}
+.price-target-text-p {
+  position:absolute;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  font-family: var(--font-secondary);
+  font-size: 0.875rem;
+  font-weight: 600;
+  transform: translate(-50%, -50%);
 }
 .teste {
   height: 500px;
