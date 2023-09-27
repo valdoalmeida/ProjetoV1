@@ -2,7 +2,7 @@ let num1 = document.getElementById("num-delivery1");
 let num2 = document.getElementById("num-delivery2");
 let num3 = document.getElementById("num-delivery3");
 let num4 = document.getElementById("num-delivery4");
-let deliveryOur = document.getElementById('delivery-ours');
+let deliveryOur = document.getElementById("delivery-ours");
 
 // INICIO DOS CONTADORES
 var contador1 = 0; // Defina o valor inicial da contagem progressiva
@@ -47,19 +47,36 @@ function counterNum4() {
   }, 190);
 }
 
-
-
-// FUNÇÃO PARA INICIAR A CONTAGEM AUTOMATICAMENTE
 export function loadCounter() {
-  
-  if (deliveryOur.style.visibility !== "hidden") {
-    counterNum1();
-    counterNum2();
-    counterNum3();
-    counterNum4();
-  }
+  counterNum1();
+  counterNum2();
+  counterNum3();
+  counterNum4();
 }
 
-// CHAMA A FUNÇÃO LOADCOUNTER ASSIM QUE CARREGAR A PAGINA
-window.onload = loadCounter;
+
+
+//CHAMAR A FUNÇÃO QUANDO O ELEMENTO DO HTML APARECER NO VIEWPORT
+const cardCount = document.querySelector(".card-delivery");
+
+const opcao = {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.5,
+};
+
+function callback(entries, observer) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      // Apenas chame loadCounter quando o elemento entrar na viewport
+      loadCounter();
+      // Depois, pare de observar o elemento, se necessário
+      observer.unobserve(entry.target);
+    }
+  });
+}
+
+const observar = new IntersectionObserver(callback, opcao);
+
+observar.observe(cardCount);
 

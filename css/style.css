@@ -471,7 +471,7 @@ ul.menu-nav {
 /*INICIO DA DELIVERY OURS*/
 
 .delivery-ours {
-  visibility: hidden;
+  /*visibility: hidden;*/
 }
 .text-delivery-secondary {
   text-align: center;
