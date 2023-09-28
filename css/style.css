@@ -17,7 +17,8 @@
 .text-delivery-main,
 .text-doubt-main,
 .tec-cloud-text-main,
-.know-text-uscall {
+.know-text-uscall,
+.yealink-text-main {
   font-family: var(--font-secondary);
   font-size: 1.563rem;
   text-transform: uppercase;
@@ -751,7 +752,7 @@ textarea::placeholder {
   position: absolute;
 }
 .price-target-text-p {
-  position:absolute;
+  position: absolute;
   color: #ffffff;
   top: 50%;
   left: 50%;
@@ -759,6 +760,20 @@ textarea::placeholder {
   font-size: 0.875rem;
   font-weight: 600;
   transform: translate(-50%, -50%);
+}
+
+/*CARROSEL*/
+
+.yealink-text-p {
+  text-align: center;
+  font-family: var(--font-secondary);
+  font-size: 0.875rem;
+}
+.container-carrosel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 .teste {
   height: 500px;
