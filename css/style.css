@@ -18,7 +18,7 @@
 .text-doubt-main,
 .tec-cloud-text-main,
 .know-text-uscall,
-.yealink-text-main {
+.text-video-conf {
   font-family: var(--font-secondary);
   font-size: 1.563rem;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ ul.menu-nav {
 }
 
 .img-icon-link {
-  width: 20px;
+  width: 25px;
   margin-right: 10px;
 }
 
@@ -764,32 +764,27 @@ textarea::placeholder {
 
 /*CARROSEL*/
 
-.yealink-text-p {
+.text-yealink-p {
   text-align: center;
   font-family: var(--font-secondary);
+  font-weight: 400;
   font-size: 0.875rem;
 }
 
-.container-carrosel {
+.img-yealink-p {
+  width: 10%;
+  padding: 5px;
+}
+
+.container-main-yealink {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 50px;
+  column-gap: 30px;
+  border: 1px solid red;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.text-yealink-carrosel {
-  height: 210px;
-}
-
-.text-yealink-carrosel p {
-  font-family: var(--font-secondary);
-  font-size: 0.75rem;
-  line-height: 20px;
-}
-.img-yealing-banner {
-  text-align: center;
-  padding-bottom: 20px;
-}
 .teste {
   height: 500px;
   background-color: aquamarine;
