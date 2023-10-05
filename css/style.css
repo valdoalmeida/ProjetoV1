@@ -790,7 +790,12 @@ textarea::placeholder {
   display: flex;
   gap: 50px;
   overflow: hidden;
+  
 }
+
+
+
+
 
 .teste {
   height: 500px;
